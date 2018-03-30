@@ -12,9 +12,9 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://chimoxuanzhi.coding.me/
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title.html
 permalink_defaults:
 
 # Directory
@@ -80,7 +80,7 @@ theme: next
 deploy:
   type: git
   repo:
-    #github: git@github.com:mc275/mc275.github.io.git
+    github: git@github.com:mc275/mc275.github.io.git
     coding: git@git.coding.net:chimoxuanzhi/chimoxuanzhi.git
   branch: master
 
@@ -90,3 +90,10 @@ search:
   field: post
   format: html
   limit: 10000
+
+# symbols_count_time
+symbols_count_time:
+  symbols: true
+  time: false
+  total_symbols: true
+  total_time: true

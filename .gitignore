@@ -1,0 +1,5 @@
+# public folder and data base
+.deploy_git/
+db.json
+public/
+debug.log
